@@ -7,6 +7,7 @@ import urllib
 import pandas as pd
 import numpy as np
 from zlib import crc32
+from sklearn.model_selection import train_test_split
 
 # %%
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml2/master/"
